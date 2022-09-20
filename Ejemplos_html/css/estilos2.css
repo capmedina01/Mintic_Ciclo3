@@ -1,0 +1,48 @@
+.colorblanco{
+    color: white;
+}
+
+.fondo{
+    background-color: cadetblue;
+}
+.centrado{
+    text-align: center;
+}
+.alinizquierda{
+    text-align: left;
+}
+.tabla{
+    width: 100%;
+    border-collapse: collapse ;
+}
+.enctabla{
+    padding: 5px;
+    border-bottom: 1px;
+    text-align: center;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.imagenes{ 
+    
+    width: 50;
+    
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
