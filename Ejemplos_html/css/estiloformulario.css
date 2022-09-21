@@ -1,0 +1,18 @@
+.fondo{
+    background-color: cadetblue;
+}
+
+.titulos{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+#formulario{
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: coral;
+}
