@@ -16,3 +16,16 @@
     margin: auto;
     background-color: coral;
 }
+
+form input{
+    padding: 3px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 8px 10 px;
+    display: inline-block;
+}
+
+.botones{
+    text-align: center;
+    font-weight: bold;
+}
