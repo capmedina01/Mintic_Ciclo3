@@ -8,15 +8,17 @@
 </head>
 <body>
     <script type="text/javascript">
-    document.write('Hola Mundo');
+    document.write('Hola Mundo <br>');
+    alert('primer script')
     </script>
 
     <script>var num1= 5;
     var num2=10;
-    document.writeln(num1+num2)
+    document.writeln(num1+num2 +'<br>')
     alert(num1+num2)
     a=prompt('Ingrese un valor')
-    alert(a)
+    alert(a + )
+    alert('segundo script')
     </script>
 
     <script>
@@ -25,9 +27,21 @@
         user=prompt('Ingrese el usuario:')
         pass=prompt('Ingrese la contraseña:')
         if(user=='Alex' && pass=='abc123'){
-            alert
+            alert('Su ingreso fue aprobado')
         }
-
+        else{
+            alert('Revise sus credenciales')
+        }
+        alert('tercer script')
+    </script>
+    <script>       
+        alert('cuarto script')
+        var cont,n;
+        n=prompt('Ingrese un número')
+        document.write('Hola mundo'+ n + 'veces <br>')
+        for(cont = 0; cont<n; cont ++){
+            document.write(cont+'Hola mundo <br>');
+        }
     </script>
 </body>
 </html>
