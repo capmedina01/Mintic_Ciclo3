@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <style>
+    div{
+      background-color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script>
+    var lista=[
+      {
+        'nombre':'alex',
+        'apellido':'vacca',
+        'telefono':'320769'
+      },
+      {
+        'nombre':'juli',
+        'apellido':'diaz',
+        'telefono':'322366'
+      },
+    ]
+
+    document.write("<table>")
+    document.write("<tr>")
+    document.write("<th> Nombre </th>")
+    document.write("<th> Apellido </th>")
+    document.write("<th> Telefono </th>")
+    document.write("</tr>")
+    for (var i = 0; i < lista.length; i++) {
+      document.write("<tr>")
+      document.write("<td>"+ lista[i]['nombre']+" </td>")
+      document.write("<td>"+ lista[i]['apellido']+" </td>")
+      document.write("<td>"+ lista[i]['telefono']+" </td>")
+      document.write("</tr>")
+
+    }
+
+
+    document.write("</table>")
+  </script>
+
+  <script>
+    var i=0;
+    while(i<5){
+      document.write("<h4>"+i+"</h4>")
+      i++;
+    }
+  </script>
+
+<script>
+  var i=0;
+  do {
+    i++
+    document.write("<div>"+i+"</div>")
+  } while (i<7);
+</script>
+
+</body>
+
+</html>
