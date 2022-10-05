@@ -3,5 +3,5 @@ function validarFormulario(){
   var correo=document.registroUser.correo;
   var passw= document.registroUser.passw;
 
-  alert(username)
+  alert(username);
 }
