@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+<style>
+    div{
+        background-color: aqua;
+        width: 20px;
+        height: 40px;
+        border-radius: 10px;
+        padding: auto;
+        margin: auto;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+
+</head>
+<body>
+    <h1>FUNCIONES JAVASCRIPT</h1>
+
+    <script language="javascript">
+        function MostrarComprendidos(a,b){
+            for(var i=a;i<b;i++){
+                document.write("<div>"+i+ "</div>")
+            }
+
+        }
+        var num1=prompt('punto inicial: ')
+        var num2=prompt('punto final: ')
+        MostrarComprendidos(num1, num2);
+
+    </script>
+    
+</body>
+</html>
