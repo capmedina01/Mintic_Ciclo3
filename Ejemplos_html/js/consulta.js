@@ -501,7 +501,7 @@ function mostrarPost(){
           "title": "enim repellat iste"
         }
       ];
-      var info="<table>";
+      var info="<table>"
       info=info+"<tr>"
       info=info+"<th>id</th>"
       info=info+"<th>usuario</th>"
@@ -510,5 +510,5 @@ function mostrarPost(){
       info=info+"</tr>"
       info=info+"</table>"
 
-      document.getElementById("informaion").innerHTML=info;
+      document.getElementById("informacion").innerHTML=info;
 }
