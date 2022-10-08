@@ -10,12 +10,26 @@ h1{
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    color: whitesmoke;
 }
 
 table{
     width: 100%;
+    border-spacing: 5px;
 }
 table, th, td{
 border: 1px solid white;
-border-collapse: collapse;
+border-radius: 8px;
+}
+
+th{
+    background-color: cadetblue;
+    text-align: left;
+    padding: 6px;
+}
+
+td{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 5px;
 }
