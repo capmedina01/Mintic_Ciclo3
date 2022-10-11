@@ -45,20 +45,20 @@ function mostrarPost() {
   var info = "<table>"
   info = info + "<tr>"
   info = info + "<th>id</th>"
-  info = info + "<th>usuario</th>"
+  info = info + "<th>Identificacion</th>"
   info = info + "<th>titulo</th>"
-  info = info + "<th>post</th>"
+  
   info = info + "</tr>"
-  info = info + "</table>"
+  
 
   for (var i = 0; i < listaPost.length; i++) {
     info = info + "<tr>"
-    info = info + "<td>id</td>"
-    info = info + "<td>usuario</td>"
-    info = info + "<td>titulo</td>"
-    info = info + "<td>post</td>"
+    info = info + "<td>"+listaPost[i]['ID de usuario']+"</td>"
+    info = info + "<td>"+listaPost[i]['identificación']+"</td>"
+    info = info + "<td>"+listaPost[i]['title']+"</td>"
     info = info + "</tr>"
   }
+  info = info + "</table>"
 
   document.getElementById("informacion").innerHTML = info;
 }
